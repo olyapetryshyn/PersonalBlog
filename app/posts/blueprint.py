@@ -9,11 +9,14 @@ from app import db
 
 from flask import redirect, url_for
 
+from flask_security import login_required
+
 posts = Blueprint('posts', __name__, template_folder='templates')
 
 
 # http://localhost/blog/create
 @posts.route('/create', methods=['POST', 'GET'])
+@login_required
 def create_post():
     if request.method == 'POST':
         title = request.form['title']
@@ -33,6 +36,7 @@ def create_post():
 
 
 @posts.route('/<slug>/edit/', methods=['POST', 'GET'])
+@login_required
 def edit_post(slug):
     post = Post.query.filter(Post.slug == slug).first()
 

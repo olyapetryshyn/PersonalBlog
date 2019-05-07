@@ -29,7 +29,12 @@
         <a class="nav-link" href=" {{ url_for('posts.index') }} ">Blog<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="{{ url_for('posts.create_post')}}">New post</a>
+        <!-- <a class="nav-link" href="{{ url_for('posts.create_post')}}">+New post</a> -->
+        <li>
+          {% if current_user.has_role('admin') %}
+          <a href="/admin">Admin</a>
+          {% endif %}
+        </li>
       </li>
       <li class="nav-item">
         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>

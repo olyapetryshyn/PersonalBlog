@@ -5,19 +5,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/posts/blueprint.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/posts/blueprint.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/posts/templates/posts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/posts/templates/posts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/posts/templates/posts/edit_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/posts/templates/posts/edit_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/about.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3.dist-info/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3.dist-info/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/progress/helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/contactus.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="356">
+              <caret line="62" column="35" lean-forward="true" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -42,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="200">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -51,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+            <state relative-caret-position="102">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -63,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/posts/blueprint.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+            <state relative-caret-position="320">
+              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -75,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/posts/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            <state>
+              <caret column="51" selection-start-column="51" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -84,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="220">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -115,10 +108,10 @@
         <option value="$PROJECT_DIR$/app/manage.py" />
         <option value="$PROJECT_DIR$/app/posts/templates/posts/post_detail.html" />
         <option value="$PROJECT_DIR$/app/posts/forms.py" />
-        <option value="$PROJECT_DIR$/app/posts/blueprint.py" />
-        <option value="$PROJECT_DIR$/app/app.py" />
-        <option value="$PROJECT_DIR$/app/config.py" />
         <option value="$PROJECT_DIR$/app/models.py" />
+        <option value="$PROJECT_DIR$/app/posts/blueprint.py" />
+        <option value="$PROJECT_DIR$/app/config.py" />
+        <option value="$PROJECT_DIR$/app/app.py" />
       </list>
     </option>
   </component>
@@ -296,16 +289,26 @@
     <entry file="file://$PROJECT_DIR$/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/posts/blueprint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/posts/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        <state>
+          <caret column="51" selection-start-column="51" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="220">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
@@ -313,27 +316,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/posts/blueprint.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        <state relative-caret-position="102">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -342,8 +335,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="356">
+          <caret line="62" column="35" lean-forward="true" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
