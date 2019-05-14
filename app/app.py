@@ -20,6 +20,7 @@ app = Flask(__name__)
 app.config.from_object(Configuration)
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 app.config['SECURITY_REGISTERABLE'] = True
+app.config['SECURITY_RECOVERABLE'] = True
 
 db = SQLAlchemy(app)
 
